@@ -8,8 +8,8 @@ namespace EventHubsSender
 {
     class Program
     {
-        private const string connectionString = "Endpoint=sb://arnabnamespace.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=5qZYY89SoWAcq7Lzw3qzYxonT0+J2Hm3OWoaQRn7F64=";
-        private const string eventHubName = "arnabeventhub";
+        private const string connectionString = "";
+        private const string eventHubName = "";
 
         static async Task Main()
         {

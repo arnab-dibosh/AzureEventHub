@@ -10,10 +10,10 @@ namespace EventHubsReceiver
 {
     class Program
     {
-        private const string connectionString = "Endpoint=sb://arnabnamespace.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=5qZYY89SoWAcq7Lzw3qzYxonT0+J2Hm3OWoaQRn7F64=";
-        private const string eventHubName = "arnabeventhub";
-        private const string blobStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=arnabdiboshstorage;AccountKey=r8YPi/Pg/1r3kRubg1M8w7ea9jmgqZ2ueDJPkRDSiJsa2Yyxg26WW1n9XF75PJWKDcVumBk6xVNIKkYxIOZ/Rw==;EndpointSuffix=core.windows.net";
-        private const string blobContainerName = "arnabcontainer";
+        private const string connectionString = "";
+        private const string eventHubName = "";
+        private const string blobStorageConnectionString = "";
+        private const string blobContainerName = "";
 
         static async Task Main()
         {
